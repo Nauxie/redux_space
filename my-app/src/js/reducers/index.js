@@ -2,7 +2,7 @@ import { ADD_ARTICLE } from "../constants/action-types";
 
 // src/js/reducers/index.js
 const initialState = {
-    articles: []
+                articles: []
   };
   function rootReducer(state = initialState, action) {
     if (action.type == ADD_ARTICLE){
